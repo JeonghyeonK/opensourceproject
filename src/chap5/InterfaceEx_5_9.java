@@ -1,5 +1,5 @@
 package chap5;
-
+/*
 interface PhoneInterface { // 인터페이스 선언
 	final int TIMEOUT = 10000; // 상수 필드 선언
 
@@ -71,15 +71,18 @@ class PDA { // 클래스 작성
 			System.out.println("일정 관리합니다.");
 		}
 	}
-
+*/ 
 	public class InterfaceEx_5_9 {
 		public static void main(String [] args) {
-		SmartPhone phone = new SmartPhone();
+	/*
+			SmartPhone phone = new SmartPhone();
 		phone.printLogo();
 		phone.sendCall();
 		phone.play();
 		System.out.println("3과 5를 더하면 " +
 		phone.calculate(3,5));
 		phone.schedule();
+		
+		*/
 		}
-		}
+	}
